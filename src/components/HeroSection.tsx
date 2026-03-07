@@ -1,5 +1,6 @@
-import { Instagram, Facebook, Linkedin } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import heroImage from "@/assets/hero-workers.png";
 
 const HeroSection = () => {
   return (
@@ -8,8 +9,8 @@ const HeroSection = () => {
         {/* Left side - Image */}
         <div className="relative aspect-[4/3] md:aspect-auto rounded-[2rem] overflow-hidden animate-scale-in">
           <img
-            src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=1920&q=80"
-            alt="Hero"
+            src={heroImage}
+            alt="Kingdom Workforce Agency workers on site"
             className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
           />
         </div>
@@ -18,40 +19,39 @@ const HeroSection = () => {
         <div className="flex flex-col justify-center space-y-6 md:space-y-8">
           <div className="space-y-4 md:space-y-6">
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-[1.1] tracking-tight animate-slide-down">
-              Journey Through Life's Spectrum
+              Building Your Workforce, Building Your Future
             </h1>
             <p className="text-muted-foreground text-lg md:text-xl leading-relaxed max-w-xl animate-slide-up stagger-1">
-              Welcome to Perspective's Blog: A Realm of Reflection, Inspiration, and Discovery. Where Words Illuminate
-              Paths of Meaning and Thoughts Unravel the Mysteries of Life's Spectrum.
+              Kingdom Workforce Agency connects skilled workers with employers who need reliable, professional labor. From construction to maintenance, we provide the workforce you can trust.
             </p>
           </div>
 
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 md:gap-6 pt-4 animate-slide-up stagger-2">
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8 py-4 md:px-10 md:py-6 text-base font-medium transition-all hover:scale-105 w-full sm:w-auto">
-              Join Now
+              Get Started
             </Button>
 
             <div className="flex items-center gap-4">
               <a
-                href="#instagram"
+                href="tel:+1234567890"
                 className="w-12 h-12 rounded-full border-2 border-border hover:border-primary hover:bg-muted transition-all flex items-center justify-center hover:scale-110"
-                aria-label="Instagram"
+                aria-label="Call us"
               >
-                <Instagram className="w-5 h-5" />
+                <Phone className="w-5 h-5" />
               </a>
               <a
-                href="#facebook"
+                href="mailto:info@kingdomworkforce.com"
                 className="w-12 h-12 rounded-full border-2 border-border hover:border-primary hover:bg-muted transition-all flex items-center justify-center hover:scale-110"
-                aria-label="Facebook"
+                aria-label="Email us"
               >
-                <Facebook className="w-5 h-5" />
+                <Mail className="w-5 h-5" />
               </a>
               <a
-                href="#linkedin"
+                href="/contact"
                 className="w-12 h-12 rounded-full border-2 border-border hover:border-primary hover:bg-muted transition-all flex items-center justify-center hover:scale-110"
-                aria-label="LinkedIn"
+                aria-label="Our location"
               >
-                <Linkedin className="w-5 h-5" />
+                <MapPin className="w-5 h-5" />
               </a>
             </div>
           </div>
