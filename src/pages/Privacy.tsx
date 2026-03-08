@@ -27,20 +27,6 @@ const Privacy = () => {
 
           <section>
             <h2 className="text-2xl font-bold mb-4">Information We Collect</h2>
-            <h3 className="text-xl font-semibold mb-3 mt-6">Personal Information</h3>
-            <p className="text-muted-foreground mb-4">
-              We may collect personal information that you voluntarily provide to us when you:
-            </p>
-            <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
-              <li>Subscribe to our newsletter</li>
-              <li>Contact us through our contact form</li>
-              <li>Comment on our articles</li>
-              <li>Create an account on our website</li>
-            </ul>
-            <p className="text-muted-foreground mt-4">
-              This information may include your name, email address, and any other information you choose to provide.
-            </p>
-
             <h3 className="text-xl font-semibold mb-3 mt-6">Automatically Collected Information</h3>
             <p className="text-muted-foreground">
               When you visit our website, we may automatically collect certain information about your device, 
@@ -55,7 +41,6 @@ const Privacy = () => {
               We use the information we collect to:
             </p>
             <ul className="list-disc pl-6 space-y-2 text-muted-foreground">
-              <li>Send you our newsletter and marketing communications</li>
               <li>Respond to your comments and questions</li>
               <li>Improve our website and content</li>
               <li>Analyze usage patterns and trends</li>
