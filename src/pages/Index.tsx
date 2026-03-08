@@ -2,48 +2,55 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import IntroSection from "@/components/IntroSection";
 import ServiceCard from "@/components/ServiceCard";
+import constructionImg from "@/assets/service-construction.jpg";
+import electricalImg from "@/assets/service-electrical.jpg";
+import plumbingImg from "@/assets/service-plumbing.jpg";
+import maintenanceImg from "@/assets/service-maintenance.jpg";
+import landscapingImg from "@/assets/service-landscaping.jpg";
+import generalLaborImg from "@/assets/service-general-labor.jpg";
+import machineryImg from "@/assets/service-machinery.jpg";
 
 const services = [
   {
     title: "Construction Workers",
     description: "Skilled laborers for residential and commercial construction projects of any scale.",
-    image: "https://images.unsplash.com/photo-1590856029826-c7a73142bbf1?w=800&q=80",
+    image: constructionImg,
     category: "Construction",
   },
   {
     title: "Electrical Services",
     description: "Licensed electricians for installations, repairs, and maintenance work.",
-    image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&q=80",
+    image: electricalImg,
     category: "Electrical",
   },
   {
     title: "Plumbing Teams",
     description: "Professional plumbers for new installations and emergency repairs.",
-    image: "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=800&q=80",
+    image: plumbingImg,
     category: "Plumbing",
   },
   {
     title: "Maintenance Crews",
     description: "Reliable teams for building maintenance, cleaning, and facility management.",
-    image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80",
+    image: maintenanceImg,
     category: "Maintenance",
   },
   {
     title: "Landscaping & Groundwork",
     description: "Experienced crews for landscaping, groundwork, and outdoor projects.",
-    image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80",
+    image: landscapingImg,
     category: "Landscaping",
   },
   {
     title: "General Labor",
     description: "Versatile workers ready for warehousing, logistics, and general labor tasks.",
-    image: "https://images.unsplash.com/photo-1574169208507-84376144848b?w=800&q=80",
+    image: generalLaborImg,
     category: "General Labor",
   },
   {
     title: "Machinery Rental",
     description: "Heavy equipment and machinery available for rent — excavators, loaders, cranes, and more.",
-    image: "https://images.unsplash.com/photo-1580901368919-7738efb0f87e?w=800&q=80",
+    image: machineryImg,
     category: "Machinery",
   },
 ];
