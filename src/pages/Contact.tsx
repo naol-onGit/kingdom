@@ -29,7 +29,7 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="group flex flex-col items-center gap-3 p-6 rounded-2xl border border-border hover:border-primary/50 hover:bg-muted/60 transition-all hover:scale-105"
               >
-                <div className="w-16 h-16 rounded-full bg-[hsl(200,80%,50%)] flex items-center justify-center text-white group-hover:scale-110 transition-transform">
+                <div className="w-16 h-16 rounded-full bg-foreground flex items-center justify-center text-background group-hover:scale-110 transition-transform">
                   <Send className="w-7 h-7" />
                 </div>
                 <span className="font-semibold">Telegram</span>
