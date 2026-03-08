@@ -90,7 +90,7 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-border animate-fade-in">
+          <div className="md:hidden mt-2 py-4 px-4 border border-border/50 rounded-2xl animate-fade-in backdrop-blur-xl bg-background/70 shadow-lg">
             <nav className="flex flex-col gap-4">
               <a href="/" className="text-sm font-medium hover:text-accent transition-colors">
                 Home
