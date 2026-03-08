@@ -7,7 +7,7 @@ const services = [
   {
     title: "Construction Workers",
     description: "Skilled laborers for residential and commercial construction projects of any scale.",
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1590856029826-c7a73142bbf1?w=800&q=80",
     category: "Construction",
   },
   {
@@ -31,14 +31,20 @@ const services = [
   {
     title: "Landscaping & Groundwork",
     description: "Experienced crews for landscaping, groundwork, and outdoor projects.",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80",
     category: "Landscaping",
   },
   {
     title: "General Labor",
     description: "Versatile workers ready for warehousing, logistics, and general labor tasks.",
-    image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebb6525?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1574169208507-84376144848b?w=800&q=80",
     category: "General Labor",
+  },
+  {
+    title: "Machinery Rental",
+    description: "Heavy equipment and machinery available for rent — excavators, loaders, cranes, and more.",
+    image: "https://images.unsplash.com/photo-1580901368919-7738efb0f87e?w=800&q=80",
+    category: "Machinery",
   },
 ];
 
