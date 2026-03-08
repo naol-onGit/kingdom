@@ -16,6 +16,7 @@ const ServiceCard = ({ title, description, image, category }: ServiceCardProps) 
     if (normalized.includes("plumb")) return "tag-travel";
     if (normalized.includes("land")) return "tag-growth";
     if (normalized.includes("general")) return "tag-wellness";
+    if (normalized.includes("machin")) return "tag-community";
     return "tag-lifestyle";
   };
 
