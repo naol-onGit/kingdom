@@ -73,9 +73,12 @@ const Header = () => {
               )}
             </button>
             
-            <Button className="hidden md:flex bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8 py-2 hover:scale-105 transition-all">
-              Hire Workers
-            </Button>
+              <Button
+                className="hidden md:flex bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8 py-2 hover:scale-105 transition-all"
+                onClick={() => window.open('https://t.me/kingdom_workforce_register_bot', '_blank')}
+              >
+                Hire Workers
+              </Button>
 
             {/* Mobile Menu Button */}
             <button
@@ -104,9 +107,12 @@ const Header = () => {
               <a href="/contact" className="text-sm font-medium hover:text-accent transition-colors">
                 Contact
               </a>
-              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full w-full">
-                Hire Workers
-              </Button>
+                <Button
+                  className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full w-full"
+                  onClick={() => window.open('https://t.me/your_bot_username', '_blank')}
+                >
+                  Hire Workers
+                </Button>
             </nav>
           </div>
         )}
