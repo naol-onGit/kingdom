@@ -20,8 +20,7 @@ const Contact = () => {
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Social Media Links */}
           <div className="rounded-2xl bg-card p-8 animate-slide-up stagger-2">
-            <h2 className="text-2xl font-bold mb-8">
-</h2>
+            <h2 className="text-2xl font-bold mb-8">Social Media</h2>
             <div className="grid grid-cols-2 gap-4">
               {/* Telegram */}
               <a href="https://t.me/kingdomworkforce"
