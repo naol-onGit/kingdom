@@ -136,7 +136,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold mb-1">How do I join Kingdom Workforce?</h4>
                   <p className="text-muted-foreground">
-                    Message us on Telegram or visit our office in Addis Ababa. We're always looking for skilled workers.
+                    Register using our telegram bot, filling the necessary information required to be a great candidate.
                   </p>
                 </div>
                 <div>
