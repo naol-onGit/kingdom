@@ -38,8 +38,8 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center min-w-0">
             <a href="/" className="flex items-center gap-1.5 sm:gap-2">
-              <img src={logo} alt="Kingdom Workforce Agency" className="w-8 h-8 sm:w-10 sm:h-10 rounded-full object-cover flex-shrink-0" />
-              <span className="text-base sm:text-xl font-bold font-serif truncate">Kingdom Workforce</span>
+              <img src={logo} alt="Deldey Recruitment Agency" className="w-8 h-8 sm:w-10 sm:h-10 rounded-full object-cover flex-shrink-0" />
+              <span className="text-base sm:text-xl font-bold font-serif truncate">Deldey Recruitment Agency</span>
             </a>
           </div>
 
@@ -75,7 +75,7 @@ const Header = () => {
             
               <Button
                 className="hidden md:flex bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8 py-2 hover:scale-105 transition-all"
-                onClick={() => window.open('https://t.me/kingdom_workforce_register_bot', '_blank')}
+                onClick={() => window.open('https://t.me/deldeyrec', '_blank')} 
               >
                 Hire Workers
               </Button>
@@ -109,7 +109,7 @@ const Header = () => {
               </a>
                 <Button
                   className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full w-full"
-                  onClick={() => window.open('https://t.me/your_bot_username', '_blank')}
+                  onClick={() => window.open('https://t.me/deldeyrec', '_blank')}
                 >
                   Hire Workers
                 </Button>

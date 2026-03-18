@@ -10,7 +10,7 @@ const HeroSection = () => {
         <div className="relative aspect-[4/3] md:aspect-auto rounded-[2rem] overflow-hidden animate-scale-in">
           <img
             src={heroImage}
-            alt="Kingdom Workforce Agency workers on site"
+            alt="Deldey Recruitment Agency workers on site"
             className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
           />
         </div>
@@ -22,14 +22,16 @@ const HeroSection = () => {
               Building Your Workforce, Building Your Future
             </h1>
             <p className="text-muted-foreground text-lg md:text-xl leading-relaxed max-w-xl animate-slide-up stagger-1">
-              Kingdom Workforce Agency connects skilled workers with employers who need reliable, professional labor. From construction to maintenance, we provide the workforce you can trust.
+              Deldey Recruitment Agency connects skilled workers with employers who need reliable, professional labor. From construction to maintenance, we provide the workforce you can trust.
             </p>
           </div>
 
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 md:gap-6 pt-4 animate-slide-up stagger-2">
-            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8 py-4 md:px-10 md:py-6 text-base font-medium transition-all hover:scale-105 w-full sm:w-auto">
-              Get Started
-            </Button>
+            <a href="/about" className="no-underline">
+              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8 py-4 md:px-10 md:py-6 text-base font-medium transition-all hover:scale-105 w-full sm:w-auto">
+                Get Started
+              </Button>
+            </a>
 
             <div className="flex items-center gap-4">
               <a
