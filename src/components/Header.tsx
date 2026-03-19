@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X, Moon, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/deldey-logo.png";
+import icon from "@/assets/deldey-icon.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -38,7 +38,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center min-w-0">
             <a href="/" className="flex items-center gap-1.5 sm:gap-2">
-              <img src={logo} alt="Deldey Recruitment Agency" className="w-8 h-8 sm:w-10 sm:h-10 rounded-full object-cover flex-shrink-0" />
+              <img src={icon} alt="Deldey Recruitment Agency" className="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover flex-shrink-0 border-2 border-border" />
               <span className="text-base sm:text-xl font-bold font-serif truncate">Deldey Recruitment Agency</span>
             </a>
           </div>
