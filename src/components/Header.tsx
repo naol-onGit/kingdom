@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X, Moon, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/deldey-logo.png";
+import icon from "@/assets/deldey-icon.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
