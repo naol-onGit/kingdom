@@ -19,7 +19,7 @@ const HeroSection = () => {
         <div className="flex flex-col justify-center space-y-6 md:space-y-8">
           <div className="space-y-4 md:space-y-6">
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-[1.1] tracking-tight animate-slide-down">
-              Building Your Workforce, Building Your Future
+              Bridging The Gap Between Talent & Opportunity
             </h1>
             <p className="text-muted-foreground text-lg md:text-xl leading-relaxed max-w-xl animate-slide-up stagger-1">
               Deldey Recruitment Agency connects skilled workers with employers who need reliable, professional labor. From construction to maintenance, we provide the workforce you can trust.
@@ -42,7 +42,7 @@ const HeroSection = () => {
                 <Phone className="w-5 h-5" />
               </a>
               <a
-                href="mailto:info@kingdomworkforce.com"
+                href="mailto:info@deldey.com"
                 className="w-12 h-12 rounded-full border-2 border-border hover:border-primary hover:bg-muted transition-all flex items-center justify-center hover:scale-110"
                 aria-label="Email us"
               >

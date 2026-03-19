@@ -11,10 +11,10 @@ const About = () => {
         {/* Hero Section */}
         <div className="mb-16 text-center space-y-6">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight animate-slide-down">
-            About Perspective
+            About Deldey
           </h1>
           <p className="text-lg text-muted-foreground leading-relaxed animate-slide-up stagger-1">
-            A space for exploring ideas, finding inspiration, and discovering new ways of seeing the world.
+            Bridging the gap between skilled talent and the businesses that need them most.
           </p>
         </div>
 
@@ -22,18 +22,18 @@ const About = () => {
         <section className="mb-16 space-y-6 text-muted-foreground animate-slide-up stagger-2">
           <h2 className="text-3xl font-bold text-foreground mb-6">Our Story</h2>
           <p>
-            Perspective began with a simple question: What if we could create a space where thoughtful ideas, 
-            meaningful stories, and practical wisdom come together to enrich our daily lives?
+            Deldey Recruitment Agency was founded with a clear mission: to connect Ethiopia's skilled workforce 
+            with businesses that need reliable, professional labor. We saw a gap in the market — talented workers 
+            struggling to find opportunities and employers struggling to find dependable teams.
           </p>
           <p>
-            In a world saturated with information, we felt the need for something different—a publication that 
-            prioritizes depth over speed, quality over quantity, and authentic connection over viral content. 
-            Perspective is our answer to that need.
+            Based in Addis Ababa, we've built a network of vetted professionals across construction, electrical, 
+            plumbing, maintenance, landscaping, and general labor. Every worker in our network is carefully 
+            screened to ensure quality and reliability.
           </p>
           <p>
-            We explore topics that matter: wellness practices that actually work, travel experiences that transform 
-            us, creative pursuits that bring joy, and personal growth strategies that lead to lasting change. 
-            Our approach is grounded in curiosity, backed by research, and enriched by lived experience.
+            Whether you need a single specialist or a full crew, Deldey delivers the right people for the job — 
+            on time, every time.
           </p>
         </section>
 
@@ -42,25 +42,25 @@ const About = () => {
           <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
           <div className="space-y-4 text-muted-foreground">
             <p>
-              We believe that how we see the world shapes how we experience it. Perspective is dedicated to 
-              offering fresh viewpoints, practical insights, and inspiring stories that help readers:
+              We believe that Ethiopia's workforce is its greatest asset. Deldey Recruitment Agency is dedicated to 
+              unlocking that potential by:
             </p>
             <ul className="space-y-3 ml-6">
               <li className="flex items-start">
                 <span className="mr-3 mt-1">•</span>
-                <span>Cultivate mindful, balanced lifestyles that prioritize wellbeing</span>
+                <span>Connecting skilled workers with meaningful employment opportunities</span>
               </li>
               <li className="flex items-start">
                 <span className="mr-3 mt-1">•</span>
-                <span>Explore the world with curiosity and respect</span>
+                <span>Providing businesses with reliable, vetted workforce solutions</span>
               </li>
               <li className="flex items-start">
                 <span className="mr-3 mt-1">•</span>
-                <span>Express themselves authentically through creative pursuits</span>
+                <span>Supporting professional development and fair labor practices</span>
               </li>
               <li className="flex items-start">
                 <span className="mr-3 mt-1">•</span>
-                <span>Embrace personal growth as a lifelong journey</span>
+                <span>Building long-term partnerships based on trust and quality</span>
               </li>
             </ul>
           </div>
@@ -71,27 +71,27 @@ const About = () => {
           <h2 className="text-3xl font-bold mb-8">Our Values</h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="p-6 rounded-xl bg-muted">
-              <h3 className="text-xl font-semibold mb-3">Authenticity</h3>
+              <h3 className="text-xl font-semibold mb-3">Reliability</h3>
               <p className="text-muted-foreground">
-                We share real experiences, honest reflections, and genuine insights—not curated perfection.
+                We deliver on our promises. Every worker we place has been vetted for skill, professionalism, and dependability.
               </p>
             </div>
             <div className="p-6 rounded-xl bg-muted">
-              <h3 className="text-xl font-semibold mb-3">Thoughtfulness</h3>
+              <h3 className="text-xl font-semibold mb-3">Quality</h3>
               <p className="text-muted-foreground">
-                Every article is carefully researched, thoughtfully written, and designed to add real value.
+                We maintain high standards in every placement, ensuring our clients receive skilled professionals who take pride in their work.
               </p>
             </div>
             <div className="p-6 rounded-xl bg-muted">
-              <h3 className="text-xl font-semibold mb-3">Inclusivity</h3>
+              <h3 className="text-xl font-semibold mb-3">Integrity</h3>
               <p className="text-muted-foreground">
-                We welcome diverse perspectives and believe everyone's journey deserves respect and representation.
+                Fair wages, transparent processes, and honest communication are at the core of everything we do.
               </p>
             </div>
             <div className="p-6 rounded-xl bg-muted">
-              <h3 className="text-xl font-semibold mb-3">Sustainability</h3>
+              <h3 className="text-xl font-semibold mb-3">Community</h3>
               <p className="text-muted-foreground">
-                We promote practices that are sustainable for individuals, communities, and the planet.
+                We're committed to strengthening Ethiopia's workforce and creating opportunities that uplift communities.
               </p>
             </div>
           </div>
@@ -99,14 +99,16 @@ const About = () => {
 
         {/* CTA Section */}
         <section className="text-center py-12 rounded-2xl bg-card">
-          <h2 className="text-3xl font-bold mb-4">Join Our Community</h2>
+          <h2 className="text-3xl font-bold mb-4">Ready to Work With Us?</h2>
           <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Subscribe to receive our latest articles, insights, and inspiration directly in your inbox.
+            Whether you're looking to hire skilled workers or join our team, we'd love to hear from you.
           </p>
-          <Button className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8">
-            <Mail className="mr-2 h-4 w-4" />
-            Subscribe Now
-          </Button>
+          <a href="/contact">
+            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8">
+              <Mail className="mr-2 h-4 w-4" />
+              Get In Touch
+            </Button>
+          </a>
         </section>
       </main>
     </div>

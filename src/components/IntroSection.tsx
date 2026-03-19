@@ -6,7 +6,7 @@ const IntroSection = () => {
           Your trusted partner for skilled labor and workforce solutions across all industries.
         </h2>
         <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto animate-slide-up stagger-1">
-          At Kingdom Workforce Agency, we specialize in connecting businesses with dependable, 
+          At Deldey Recruitment Agency, we specialize in connecting businesses with dependable, 
           skilled workers. Whether you need construction crews, maintenance teams, or specialized 
           tradespeople, we deliver the right talent for the job.
         </p>

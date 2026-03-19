@@ -120,7 +120,7 @@ const Index = () => {
             </div>
           </div>
           <div className="pt-8 border-t border-border text-center text-sm text-muted-foreground">
-            <p>© 2025 Kingdom Workforce Agency. All rights reserved.</p>
+            <p>© 2025 Deldey Recruitment Agency. All rights reserved.</p>
           </div>
         </div>
       </footer>

@@ -23,7 +23,7 @@ const Contact = () => {
             <h2 className="text-2xl font-bold mb-8">Social Media</h2>
             <div className="grid grid-cols-2 gap-4">
               {/* Telegram */}
-              <a href="https://t.me/kingdomworkforce"
+              <a href="https://t.me/deldeyrec"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex flex-col items-center gap-3 p-6 rounded-2xl border border-border hover:border-primary/50 hover:bg-muted/60 transition-all hover:scale-105">
@@ -39,7 +39,7 @@ const Contact = () => {
 
               {/* Facebook */}
               <a
-                href="https://facebook.com/kingdomworkforce"
+                href="https://facebook.com/deldeyrec"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex flex-col items-center gap-3 p-6 rounded-2xl border border-border hover:border-primary/50 hover:bg-muted/60 transition-all hover:scale-105">
@@ -55,7 +55,7 @@ const Contact = () => {
 
               {/* Instagram */}
               <a
-                href="https://instagram.com/kingdomworkforce"
+                href="https://instagram.com/deldeyrec"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex flex-col items-center gap-3 p-6 rounded-2xl border border-border hover:border-primary/50 hover:bg-muted/60 transition-all hover:scale-105">
@@ -71,7 +71,7 @@ const Contact = () => {
 
               {/* TikTok */}
               <a
-                href="https://tiktok.com/@kingdomworkforce"
+                href="https://tiktok.com/@deldeyrec"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex flex-col items-center gap-3 p-6 rounded-2xl border border-border hover:border-primary/50 hover:bg-muted/60 transition-all hover:scale-105">
@@ -98,7 +98,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Email</h3>
-                    <p className="text-muted-foreground">info@kingdomworkforce.com</p>
+                    <p className="text-muted-foreground">info@deldey.com</p>
                     <p className="text-muted-foreground text-sm">We'll respond within 24 hours</p>
                   </div>
                 </div>
@@ -134,7 +134,7 @@ const Contact = () => {
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-1">How do I join Kingdom Workforce?</h4>
+                  <h4 className="font-semibold mb-1">How do I join Deldey?</h4>
                   <p className="text-muted-foreground">
                     Register using our telegram bot, filling the necessary information required to be a great candidate.
                   </p>
