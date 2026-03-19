@@ -1,5 +1,3 @@
-import { ArrowUpRight } from "lucide-react";
-
 interface ServiceCardProps {
   title: string;
   description: string;
@@ -38,18 +36,12 @@ const ServiceCard = ({ title, description, image, category }: ServiceCardProps) 
             </span>
           </div>
 
-          <div className="flex items-end justify-between gap-4">
-            <div className="flex-1">
-              <h3 className="text-white text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight mb-2">
-                {title}
-              </h3>
-              <p className="text-white/70 text-sm leading-relaxed line-clamp-2">{description}</p>
-            </div>
+          <div>
+            <h3 className="text-white text-xl md:text-2xl lg:text-3xl font-bold leading-tight tracking-tight mb-2">
+              {title}
+            </h3>
+            <p className="text-white/70 text-sm leading-relaxed line-clamp-2">{description}</p>
           </div>
-        </div>
-
-        <div className="absolute bottom-6 right-6 floating-button">
-          <ArrowUpRight className="w-5 h-5" />
         </div>
       </div>
     </div>
