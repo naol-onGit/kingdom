@@ -59,7 +59,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background animate-fade-in">
       <Header />
-      
+
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <HeroSection />
         <IntroSection />
@@ -68,8 +68,8 @@ const Index = () => {
         <section id="services" className="py-12">
           <div className="flex items-center justify-between mb-12 animate-slide-up">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Our Workers & Services</h2>
-            <a href="/contact" className="text-sm font-medium text-muted-foreground hover:text-accent transition-colors px-4 py-2 rounded-full hover:bg-muted/60">
-              Request a quote →
+            <a href="https://forms.gle/QQfPxA8EQd5nmRvQA" className="text-sm font-medium text-muted-foreground hover:text-accent transition-colors px-4 py-2 rounded-full hover:bg-muted/60">
+              Request a Service →
             </a>
           </div>
 
@@ -107,8 +107,8 @@ const Index = () => {
             <div>
               <h3 className="font-semibold mb-4">For Workers</h3>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><a href="/contact" className="hover:text-accent transition-colors">Join Our Team</a></li>
-                <li><a href="/contact" className="hover:text-accent transition-colors">Career Opportunities</a></li>
+                <li><a href="https://forms.gle/oagY2kerM915zR6T9" className="hover:text-accent transition-colors">Join Our Team</a></li>
+                <li><a href="https://forms.gle/oagY2kerM915zR6T9" className="hover:text-accent transition-colors">Career Opportunities</a></li>
               </ul>
             </div>
             <div>
@@ -120,7 +120,7 @@ const Index = () => {
             </div>
           </div>
           <div className="pt-8 border-t border-border text-center text-sm text-muted-foreground">
-            <p>© 2025 Deldey Recruitment Agency. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Deldey Recruitment Agency. All rights reserved.</p>
           </div>
         </div>
       </footer>

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X, Moon, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import icon from "@/assets/deldey-icon.png";
+import icon from "@/assets/deldey-logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,7 +11,7 @@ const Header = () => {
     const savedTheme = localStorage.getItem("theme");
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
     const shouldBeDark = savedTheme === "dark" || (!savedTheme && prefersDark);
-    
+
     setIsDark(shouldBeDark);
     if (shouldBeDark) {
       document.documentElement.classList.add("dark");
@@ -21,7 +21,7 @@ const Header = () => {
   const toggleTheme = () => {
     const newTheme = !isDark;
     setIsDark(newTheme);
-    
+
     if (newTheme) {
       document.documentElement.classList.add("dark");
       localStorage.setItem("theme", "dark");
@@ -38,7 +38,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center min-w-0">
             <a href="/" className="flex items-center gap-1.5 sm:gap-2">
-              <img src={icon} alt="Deldey Recruitment Agency" className="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover flex-shrink-0 border-2 border-border" />
+              <img src={icon} alt="Deldey Recruitment Agency" className="h-10 sm:h-12 w-auto rounded-full object-contain flex-shrink-0 border-2 border-border" />
               <span className="text-base sm:text-xl font-bold font-serif truncate">Deldey Recruitment Agency</span>
             </a>
           </div>
@@ -72,13 +72,13 @@ const Header = () => {
                 <Moon className="h-4 w-4 sm:h-5 sm:w-5" />
               )}
             </button>
-            
-              <Button
-                className="hidden md:flex bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8 py-2 hover:scale-105 transition-all"
-                onClick={() => window.open('https://t.me/deldeyrec', '_blank')} 
-              >
-                Hire Workers
-              </Button>
+
+            <Button
+              className="hidden md:flex bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8 py-2 hover:scale-105 transition-all"
+              onClick={() => window.open('https://forms.gle/QQfPxA8EQd5nmRvQA', '_blank')}
+            >
+              Hire Workers
+            </Button>
 
             {/* Mobile Menu Button */}
             <button
@@ -107,12 +107,12 @@ const Header = () => {
               <a href="/contact" className="text-sm font-medium hover:text-accent transition-colors">
                 Contact
               </a>
-                <Button
-                  className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full w-full"
-                  onClick={() => window.open('https://t.me/deldeyrec', '_blank')}
-                >
-                  Hire Workers
-                </Button>
+              <Button
+                className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full w-full"
+                onClick={() => window.open('https://forms.gle/QQfPxA8EQd5nmRvQA', '_blank')}
+              >
+                Hire Workers
+              </Button>
             </nav>
           </div>
         )}

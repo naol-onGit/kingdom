@@ -35,21 +35,21 @@ const HeroSection = () => {
 
             <div className="flex items-center gap-4">
               <a
-                href="tel:+1234567890"
+                href="tel:+251946333435"
                 className="w-12 h-12 rounded-full border-2 border-border hover:border-primary hover:bg-muted transition-all flex items-center justify-center hover:scale-110"
                 aria-label="Call us"
               >
                 <Phone className="w-5 h-5" />
               </a>
               <a
-                href="mailto:info@deldey.com"
+                href="mailto:info@deldey.net"
                 className="w-12 h-12 rounded-full border-2 border-border hover:border-primary hover:bg-muted transition-all flex items-center justify-center hover:scale-110"
                 aria-label="Email us"
               >
                 <Mail className="w-5 h-5" />
               </a>
               <a
-                href="/contact"
+                href="https://maps.app.goo.gl/x4VEcemTwxp2vqwN8"
                 className="w-12 h-12 rounded-full border-2 border-border hover:border-primary hover:bg-muted transition-all flex items-center justify-center hover:scale-110"
                 aria-label="Our location"
               >
