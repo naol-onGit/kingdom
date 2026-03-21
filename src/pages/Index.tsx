@@ -2,11 +2,11 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import IntroSection from "@/components/IntroSection";
 import ServiceCard from "@/components/ServiceCard";
-import constructionImg from "@/assets/service-construction.jpg";
-import electricalImg from "@/assets/service-electrical.jpg";
-import plumbingImg from "@/assets/service-plumbing.jpg";
-import maintenanceImg from "@/assets/service-maintenance.jpg";
-import landscapingImg from "@/assets/service-landscaping.jpg";
+import constructionImg from "@/assets/service-construction.png";
+import electricalImg from "@/assets/service-electrical.png";
+import plumbingImg from "@/assets/service-plumbing.png";
+import maintenanceImg from "@/assets/service-maintenance.png";
+import landscapingImg from "@/assets/service-landscaping.png";
 import generalLaborImg from "@/assets/service-general-labor.jpg";
 import machineryImg from "@/assets/service-machinery.jpg";
 
