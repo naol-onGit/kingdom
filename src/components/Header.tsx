@@ -39,7 +39,7 @@ const Header = () => {
           <div className="flex items-center min-w-0">
             <a href="/" className="flex items-center gap-1.5 sm:gap-2">
               <img src={icon} alt="Deldey Recruitment Agency" className="h-10 sm:h-12 w-auto rounded-full object-contain flex-shrink-0 border-2 border-border" />
-              <span className="text-base sm:text-xl font-bold font-serif truncate">Deldey Recruitment Agency</span>
+              <span className="text-base sm:text-xl font-bold font-sans truncate">Deldey Recruitment Agency</span>
             </a>
           </div>
 

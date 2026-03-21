@@ -7,8 +7,8 @@ import electricalImg from "@/assets/service-electrical.png";
 import plumbingImg from "@/assets/service-plumbing.png";
 import maintenanceImg from "@/assets/service-maintenance.png";
 import landscapingImg from "@/assets/service-landscaping.png";
-import generalLaborImg from "@/assets/service-general-labor.jpg";
-import machineryImg from "@/assets/service-machinery.jpg";
+import generalLaborImg from "@/assets/service-general-labor.png";
+import machineryImg from "@/assets/service-machinery.png";
 
 const services = [
   {
