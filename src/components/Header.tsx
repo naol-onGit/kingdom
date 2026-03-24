@@ -32,29 +32,29 @@ const Header = () => {
   };
 
   return (
-    <header className="sticky top-0 z-50 py-2 sm:py-4">
+    <header className="sticky top-0 z-50 py-2">
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-14 sm:h-16 pill-nav px-4 sm:px-6">
+        <div className="flex items-center justify-between h-14 sm:h-16 rounded-full text-white px-4 sm:px-6 glass-nav">
           {/* Logo */}
           <div className="flex items-center min-w-0">
             <a href="/" className="flex items-center gap-1.5 sm:gap-2">
-              <img src={icon} alt="Deldey Recruitment Agency" className="h-10 sm:h-12 w-auto rounded-full object-contain flex-shrink-0 border-2 border-border" />
+              <img src={icon} alt="Deldey Recruitment Agency" className="h-10 sm:h-12 w-auto bg-white/10 rounded-full object-contain flex-shrink-0 ring-2 ring-white/30" />
               <span className="text-base sm:text-xl font-bold font-sans truncate">Deldey Recruitment Agency</span>
             </a>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-2">
-            <a href="/" className="text-sm font-medium hover:bg-muted/60 rounded-full px-4 py-2 transition-all">
+            <a href="/" className="text-sm font-medium hover:bg-white/10 rounded-full px-4 py-2 transition-all">
               Home
             </a>
-            <a href="/#services" className="text-sm font-medium hover:bg-muted/60 rounded-full px-4 py-2 transition-all">
+            <a href="/#services" className="text-sm font-medium hover:bg-white/10 rounded-full px-4 py-2 transition-all">
               Services
             </a>
-            <a href="/about" className="text-sm font-medium hover:bg-muted/60 rounded-full px-4 py-2 transition-all">
+            <a href="/about" className="text-sm font-medium hover:bg-white/10 rounded-full px-4 py-2 transition-all">
               About
             </a>
-            <a href="/contact" className="text-sm font-medium hover:bg-muted/60 rounded-full px-4 py-2 transition-all">
+            <a href="/contact" className="text-sm font-medium hover:bg-white/10 rounded-full px-4 py-2 transition-all">
               Contact
             </a>
           </nav>
@@ -63,7 +63,7 @@ const Header = () => {
           <div className="flex items-center gap-2 sm:gap-4 flex-shrink-0">
             <button
               onClick={toggleTheme}
-              className="p-1.5 sm:p-2 rounded-full hover:bg-muted/60 transition-all"
+              className="p-1.5 sm:p-2 rounded-full hover:bg-white/10 transition-all"
               aria-label="Toggle theme"
             >
               {isDark ? (
@@ -74,7 +74,8 @@ const Header = () => {
             </button>
 
             <Button
-              className="hidden md:flex bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-8 py-2 hover:scale-105 transition-all"
+              className="hidden md:flex hover:opacity-90 text-white rounded-full px-8 py-2 hover:scale-105 transition-all font-bold border-2 border-white/40"
+              style={{backgroundColor: '#2563a8'}}
               onClick={() => window.open('https://forms.gle/QQfPxA8EQd5nmRvQA', '_blank')}
             >
               Hire Workers
@@ -93,26 +94,29 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden mt-2 py-4 px-4 border border-border/50 rounded-2xl animate-fade-in backdrop-blur-xl bg-background/70 shadow-lg">
-            <nav className="flex flex-col gap-4">
-              <a href="/" className="text-sm font-medium hover:text-accent transition-colors">
+          <div className="md:hidden mt-2 py-5 px-5 rounded-2xl animate-fade-in shadow-xl bg-white border-l-4" style={{borderLeftColor: '#1a2e5a'}}>
+            <nav className="flex flex-col gap-1">
+              <a href="/" className="text-sm font-semibold text-gray-800 hover:bg-gray-100 rounded-xl px-4 py-3 transition-all">
                 Home
               </a>
-              <a href="/#services" className="text-sm font-medium hover:text-accent transition-colors">
+              <a href="/#services" className="text-sm font-semibold text-gray-800 hover:bg-gray-100 rounded-xl px-4 py-3 transition-all">
                 Services
               </a>
-              <a href="/about" className="text-sm font-medium hover:text-accent transition-colors">
+              <a href="/about" className="text-sm font-semibold text-gray-800 hover:bg-gray-100 rounded-xl px-4 py-3 transition-all">
                 About
               </a>
-              <a href="/contact" className="text-sm font-medium hover:text-accent transition-colors">
+              <a href="/contact" className="text-sm font-semibold text-gray-800 hover:bg-gray-100 rounded-xl px-4 py-3 transition-all">
                 Contact
               </a>
-              <Button
-                className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full w-full"
-                onClick={() => window.open('https://forms.gle/QQfPxA8EQd5nmRvQA', '_blank')}
-              >
-                Hire Workers
-              </Button>
+              <div className="pt-3 mt-1 border-t border-gray-100">
+                <Button
+                  className="hover:opacity-90 text-white rounded-full w-full font-bold py-5 text-base"
+                  style={{backgroundColor: '#1a2e5a'}}
+                  onClick={() => window.open('https://forms.gle/QQfPxA8EQd5nmRvQA', '_blank')}
+                >
+                  Hire Workers
+                </Button>
+              </div>
             </nav>
           </div>
         )}
