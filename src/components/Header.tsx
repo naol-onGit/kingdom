@@ -94,24 +94,24 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden mt-2 py-5 px-5 rounded-2xl animate-fade-in shadow-xl bg-white border-l-4" style={{borderLeftColor: '#1a2e5a'}}>
+          <div className="md:hidden mt-2 py-5 px-5 rounded-2xl animate-fade-in glass-nav">
             <nav className="flex flex-col gap-1">
-              <a href="/" className="text-sm font-semibold text-gray-800 hover:bg-gray-100 rounded-xl px-4 py-3 transition-all">
+              <a href="/" className="text-sm font-semibold text-white hover:bg-white/10 rounded-xl px-4 py-3 transition-all">
                 Home
               </a>
-              <a href="/#services" className="text-sm font-semibold text-gray-800 hover:bg-gray-100 rounded-xl px-4 py-3 transition-all">
+              <a href="/#services" className="text-sm font-semibold text-white hover:bg-white/10 rounded-xl px-4 py-3 transition-all">
                 Services
               </a>
-              <a href="/about" className="text-sm font-semibold text-gray-800 hover:bg-gray-100 rounded-xl px-4 py-3 transition-all">
+              <a href="/about" className="text-sm font-semibold text-white hover:bg-white/10 rounded-xl px-4 py-3 transition-all">
                 About
               </a>
-              <a href="/contact" className="text-sm font-semibold text-gray-800 hover:bg-gray-100 rounded-xl px-4 py-3 transition-all">
+              <a href="/contact" className="text-sm font-semibold text-white hover:bg-white/10 rounded-xl px-4 py-3 transition-all">
                 Contact
               </a>
-              <div className="pt-3 mt-1 border-t border-gray-100">
+              <div className="pt-3 mt-1 border-t border-white/20">
                 <Button
-                  className="hover:opacity-90 text-white rounded-full w-full font-bold py-5 text-base"
-                  style={{backgroundColor: '#1a2e5a'}}
+                  className="bg-white hover:bg-white/90 rounded-full w-full font-bold py-5 text-base"
+                  style={{color: '#1a2e5a'}}
                   onClick={() => window.open('https://forms.gle/QQfPxA8EQd5nmRvQA', '_blank')}
                 >
                   Hire Workers

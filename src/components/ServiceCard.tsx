@@ -20,7 +20,7 @@ const ServiceCard = ({ title, description, image, category }: ServiceCardProps) 
 
   return (
     <div className="group relative block rounded-[2.5rem] overflow-hidden card-hover">
-      <div className="relative aspect-[4/3] overflow-hidden bg-muted rounded-[2.5rem]">
+      <div className="relative h-72 md:h-80 overflow-hidden bg-muted rounded-[2.5rem]">
         <img
           src={image}
           alt={title}
