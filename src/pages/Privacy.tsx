@@ -5,7 +5,7 @@ import SEO from "@/components/SEO";
 const Privacy = () => {
   return (
     <div className="min-h-screen bg-background animate-fade-in">
-      <SEO title="Privacy Policy — Deldey Recruitment Agency" description="How Deldey Recruitment Agency collects, uses and protects your information." path="/privacy" />
+      <SEO title="Privacy Policy — Deldey Finishing Specialist" description="How Deldey Finishing Specialist collects, uses and protects your information." path="/privacy" />
       <Header />
 
       <main id="main-content" className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

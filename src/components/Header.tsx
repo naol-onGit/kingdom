@@ -34,10 +34,10 @@ const Header = () => {
           <div className="flex items-center min-w-0">
             <a href="/" className="flex items-center gap-1.5 sm:gap-2" aria-label="Deldey Recruitment Agency home">
               <img src={icon} alt="" width={48} height={48} className="h-9 sm:h-12 w-auto bg-white/10 rounded-full object-contain flex-shrink-0 ring-2 ring-white/30" />
-              <span className="font-bold font-sans text-xl hidden sm:inline">Deldey Recruitment Agency</span>
+              <span className="font-bold font-sans text-xl hidden sm:inline">Deldey Finishing Specialist</span>
               <span className="font-bold font-sans flex flex-col leading-tight sm:hidden">
                 <span className="text-sm">Deldey</span>
-                <span className="text-[10px] font-medium opacity-90 tracking-wide uppercase">Recruitment Agency</span>
+                <span className="text-[10px] font-medium opacity-90 tracking-wide uppercase">Finishing Specialist</span>
               </span>
             </a>
           </div>

@@ -7,8 +7,8 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-background animate-fade-in">
       <SEO
-        title="Contact Deldey Recruitment Agency — Hire Workers in Addis Ababa"
-        description="Get in touch with Deldey Recruitment Agency. Call +251 946 333 435, email info@deldey.net, or message us on Telegram, Facebook, Instagram or TikTok."
+        title="Contact Deldey Finishing Specialist — Hire Workers in Addis Ababa"
+        description="Get in touch with Deldey. Call +251 946 333 435, email info@deldey.net, or message us on Telegram, Facebook, Instagram or TikTok."
         path="/contact"
       />
       <Header />

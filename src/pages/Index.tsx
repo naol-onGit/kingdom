@@ -145,7 +145,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background animate-fade-in font-sans">
       <SEO
-        title="Deldey Recruitment Agency — Skilled Workers in Ethiopia"
+        title="Deldey Finishing Specialist — Skilled Workers in Ethiopia"
         description="Vetted construction, electrical, plumbing, maintenance and finishing workers matched to your project across Addis Ababa, typically on-site within 48 hours."
         path="/"
       />

@@ -8,8 +8,8 @@ const About = () => {
   return (
     <div className="min-h-screen bg-background animate-fade-in">
       <SEO
-        title="About Deldey Recruitment Agency — Vetted Workers in Ethiopia"
-        description="Deldey Recruitment Agency, a Deldey Group company, connects Ethiopia's skilled workforce with businesses needing reliable construction, finishing, and maintenance teams."
+        title="About Deldey Finishing Specialist — Vetted Workers in Ethiopia"
+        description="Deldey Finishing Specialist, a Deldey Group company, connects Ethiopia's skilled workforce with businesses needing reliable construction, finishing, and maintenance teams."
         path="/about"
       />
       <Header />
@@ -17,7 +17,7 @@ const About = () => {
       <main id="main-content" className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="mb-16 text-center space-y-6">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight animate-slide-down">
-            About Deldey Recruitment Agency
+            About Deldey Finishing Specialist
           </h1>
           <p className="text-lg text-muted-foreground leading-relaxed animate-slide-up stagger-1">
             Bridging the gap between skilled talent and the businesses that need them most.
@@ -27,7 +27,7 @@ const About = () => {
         <section className="mb-16 space-y-6 text-muted-foreground animate-slide-up stagger-2">
           <h2 className="text-3xl font-bold text-foreground mb-6">Our Story</h2>
           <p>
-            Deldey Recruitment Agency, a subsidiary of Deldey Group, was founded with a clear mission: to connect
+            Deldey Finishing Specialist, a subsidiary of Deldey Group, was founded with a clear mission: to connect
             Ethiopia's skilled workforce with businesses that need reliable, professional labor. We saw a gap in
             the market — talented workers and finishing specialists struggling to find opportunities, and employers
             struggling to find dependable teams.
@@ -47,7 +47,7 @@ const About = () => {
           <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
           <div className="space-y-4 text-muted-foreground">
             <p>
-              We believe Ethiopia's workforce is its greatest asset. Deldey Recruitment Agency is dedicated to
+              We believe Ethiopia's workforce is its greatest asset. Deldey Finishing Specialist is dedicated to
               unlocking that potential by:
             </p>
             <ul className="space-y-3 ml-6">

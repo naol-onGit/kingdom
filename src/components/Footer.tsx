@@ -10,12 +10,12 @@ const Footer = () => {
             <a href="/" className="flex items-center gap-2 mb-4">
               <img
                 src={icon}
-                alt="Deldey Recruitment Agency logo"
+                alt="Deldey Finishing Specialist logo"
                 width={40}
                 height={40}
                 className="h-10 w-10 rounded-full bg-primary/10 object-contain ring-2 ring-border"
               />
-              <span className="font-bold text-lg">Deldey Recruitment Agency</span>
+              <span className="font-bold text-lg">Deldey Finishing Specialist</span>
             </a>
             <p className="text-sm text-muted-foreground max-w-sm mb-4">
               Connecting Ethiopian businesses with vetted, reliable workers across construction, finishing, electrical, plumbing, maintenance and more.
@@ -68,7 +68,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Deldey Recruitment Agency. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Deldey. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -6,7 +6,7 @@ const IntroSection = () => {
           Your trusted partner for skilled workforce solutions across Ethiopia.
         </h2>
         <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto animate-slide-up stagger-1">
-          At Deldey Recruitment Agency, we connect businesses with dependable, vetted workers — from
+          At Deldey, we connect businesses with dependable, vetted workers — from
           construction crews and finishing specialists to maintenance teams and skilled tradespeople.
           We deliver the right talent for the job, on time, every time.
         </p>
