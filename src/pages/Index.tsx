@@ -52,7 +52,7 @@ const services = [
     title: "Machinery Rental",
     description: "Heavy equipment and machinery available for rent — excavators, loaders, cranes, and more.",
     image: machineryImg,
-    category: "Machinery",
+    category: "Coming Soon",
   },
 ];
 

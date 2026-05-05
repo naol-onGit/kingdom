@@ -38,8 +38,8 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center min-w-0">
             <a href="/" className="flex items-center gap-1.5 sm:gap-2">
-              <img src={icon} alt="Deldey Recruitment Agency" className="h-10 sm:h-12 w-auto bg-white/10 rounded-full object-contain flex-shrink-0 ring-2 ring-white/30" />
-              <span className="text-base sm:text-xl font-bold font-sans truncate">Deldey Recruitment Agency</span>
+              <img src={icon} alt="Deldey Finishing Specialist" className="h-10 sm:h-12 w-auto bg-white/10 rounded-full object-contain flex-shrink-0 ring-2 ring-white/30" />
+              <span className="text-base sm:text-xl font-bold font-sans truncate">Deldey Finishing Specialist</span>
             </a>
           </div>
 

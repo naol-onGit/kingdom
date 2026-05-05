@@ -19,7 +19,7 @@ const Privacy = () => {
           <section>
             <h2 className="text-2xl font-bold mb-4">Introduction</h2>
             <p className="text-muted-foreground">
-              At Deldey Recruitment Agency, we take your privacy seriously. This Privacy Policy explains how we collect, 
+              At Deldey, we take your privacy seriously. This Privacy Policy explains how we collect, 
               use, disclose, and safeguard your information when you visit our website or use our services.
             </p>
           </section>
