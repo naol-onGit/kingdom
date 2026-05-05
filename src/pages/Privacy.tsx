@@ -1,11 +1,14 @@
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 
 const Privacy = () => {
   return (
     <div className="min-h-screen bg-background animate-fade-in">
+      <SEO title="Privacy Policy — Deldey Recruitment Agency" description="How Deldey Recruitment Agency collects, uses and protects your information." path="/privacy" />
       <Header />
-      
-      <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+      <main id="main-content" className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="mb-12 space-y-4">
           <h1 className="text-4xl md:text-5xl font-bold leading-tight animate-slide-down">
             Privacy Policy
@@ -51,12 +54,13 @@ const Privacy = () => {
               If you have any questions about this Privacy Policy, please contact us at:
             </p>
             <p className="text-muted-foreground mt-4">
-              Email: info@deldey.com<br />
-              Address: Addis Ababa, Ethiopia
+              Email: info@deldey.net<br />
+              Address: Oromia Tower, Bole, Addis Ababa, Ethiopia
             </p>
           </section>
         </div>
       </main>
+      <Footer />
     </div>
   );
 };

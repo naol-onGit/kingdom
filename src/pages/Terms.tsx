@@ -1,11 +1,14 @@
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 
 const Terms = () => {
   return (
     <div className="min-h-screen bg-background animate-fade-in">
+      <SEO title="Terms of Service — Deldey Recruitment Agency" description="Terms of service for Deldey Recruitment Agency's website and services." path="/terms" />
       <Header />
-      
-      <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+      <main id="main-content" className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="mb-12 space-y-4">
           <h1 className="text-4xl md:text-5xl font-bold leading-tight animate-slide-down">
             Terms of Service
@@ -19,7 +22,7 @@ const Terms = () => {
           <section>
             <h2 className="text-2xl font-bold mb-4">Agreement to Terms</h2>
             <p className="text-muted-foreground">
-              By accessing or using Deldey Finishing Specialist's website and services, you agree to be bound by these Terms of Service. 
+              By accessing or using Deldey Recruitment Agency's website and services, you agree to be bound by these Terms of Service.
               If you disagree with any part of these terms, you may not access our services.
             </p>
           </section>
@@ -27,7 +30,7 @@ const Terms = () => {
           <section>
             <h2 className="text-2xl font-bold mb-4">Use License</h2>
             <p className="text-muted-foreground mb-4">
-              Permission is granted to temporarily access the materials on Deldey Finishing Specialist's website for personal, 
+              Permission is granted to temporarily access the materials on Deldey Recruitment Agency's website for personal,
               non-commercial transitory viewing only.
             </p>
           </section>
@@ -35,15 +38,15 @@ const Terms = () => {
           <section>
             <h2 className="text-2xl font-bold mb-4">Intellectual Property</h2>
             <p className="text-muted-foreground">
-              All content on this website, including text, images, logos, and designs, is the property of 
-              Deldey and is protected by international copyright laws.
+              All content on this website, including text, images, logos, and designs, is the property of
+              Deldey Recruitment Agency and is protected by international copyright laws.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold mb-4">Disclaimer</h2>
             <p className="text-muted-foreground">
-              The materials on Deldey Finishing Specialist's website are provided on an "as is" basis. We make no 
+              The materials on Deldey Recruitment Agency's website are provided on an "as is" basis. We make no
               warranties, expressed or implied, and hereby disclaim all other warranties.
             </p>
           </section>
@@ -61,12 +64,13 @@ const Terms = () => {
               If you have any questions about these Terms of Service, please contact us at:
             </p>
             <p className="text-muted-foreground mt-4">
-              Email: info@deldey.com<br />
-              Address: Addis Ababa, Ethiopia
+              Email: info@deldey.net<br />
+              Address: Oromia Tower, Bole, Addis Ababa, Ethiopia
             </p>
           </section>
         </div>
       </main>
+      <Footer />
     </div>
   );
 };

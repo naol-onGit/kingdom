@@ -1,12 +1,19 @@
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 import { Mail, MapPin, Phone, Send, ExternalLink } from "lucide-react";
 
 const Contact = () => {
   return (
     <div className="min-h-screen bg-background animate-fade-in">
+      <SEO
+        title="Contact Deldey Recruitment Agency — Hire Workers in Addis Ababa"
+        description="Get in touch with Deldey Recruitment Agency. Call +251 946 333 435, email info@deldey.net, or message us on Telegram, Facebook, Instagram or TikTok."
+        path="/contact"
+      />
       <Header />
 
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <main id="main-content" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Hero Section */}
         <div className="mb-16 text-center space-y-6">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight animate-slide-down">
@@ -150,6 +157,7 @@ const Contact = () => {
           </div>
         </div>
       </main>
+      <Footer />
     </div>);
 
 };
