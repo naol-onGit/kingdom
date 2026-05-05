@@ -23,7 +23,9 @@ const ServiceCard = ({ title, description, image, category }: ServiceCardProps) 
       <div className="relative h-72 md:h-80 overflow-hidden bg-muted rounded-[2.5rem]">
         <img
           src={image}
-          alt={title}
+          alt={`${title} — Deldey`}
+          loading="lazy"
+          decoding="async"
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
         />
         

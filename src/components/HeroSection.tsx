@@ -1,18 +1,17 @@
-import { Phone, Mail, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import heroImg from "@/assets/hero-workers.webp";
 
 const HeroSection = () => {
   return (
     <section className="relative rounded-[2.5rem] overflow-hidden bg-muted mt-4 mb-16 animate-fade-in shadow-lg">
       <div className="grid md:grid-cols-2 gap-8 md:gap-14 p-8 md:p-16 lg:p-20 items-center">
-        {/* Left side - Content */}
         <div className="flex flex-col justify-center space-y-8 md:space-y-10 order-2 md:order-1">
           <div className="space-y-6 md:space-y-8">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-[1.15] tracking-tight animate-slide-down text-foreground">
               Reliable Construction & Maintenance Workers in Ethiopia
             </h1>
             <p className="text-muted-foreground text-xl md:text-2xl leading-relaxed max-w-xl animate-slide-up stagger-1 font-medium">
-              Connecting skilled professionals with top employers across Ethiopia.
+              Vetted, skilled workers matched to your project — typically on-site within 48 hours across Addis Ababa.
             </p>
           </div>
 
@@ -30,11 +29,14 @@ const HeroSection = () => {
           </div>
         </div>
 
-        {/* Right side - Image */}
         <div className="relative aspect-[4/3] md:aspect-[4/4] rounded-[2rem] overflow-hidden animate-scale-in order-1 md:order-2 shadow-2xl border-4 border-white/10">
           <img
-            src="/worker_hero.png"
-            alt="Ethiopian workers in safety gear"
+            src={heroImg}
+            alt="Skilled Ethiopian construction and maintenance workers in safety gear on-site"
+            width={1200}
+            height={1200}
+            fetchPriority="high"
+            decoding="async"
             className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
           />
         </div>
@@ -44,3 +46,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
